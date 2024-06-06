@@ -1,6 +1,6 @@
 #define AOUT_PIN 2 // ESP32 pin GPIO36 (ADC0) that connects to AOUT pin of moisture sensor
 #define THRESHOLD 1920 // Threshold value separating dry and moist soil readings
-#define DRY_THRESHOLD 450 // Threshold value for completely dry soil
+#define DRY_THRESHOLD 1000 // Threshold value for completely dry soil
 
 void setup() {
     Serial.begin(9600);
